@@ -112,34 +112,6 @@ In the **first phase** of development, the following features must be implemente
 
 ---
 
-## 📁 File Structure (Example)
-
-stayhealthy/
-│
-├── src/
-│ ├── components/
-│ │ ├── Navbar.tsx
-│ │ ├── Login.tsx
-│ │ ├── SignupForm.tsx
-│ │ ├── DoctorList.tsx
-│ │ └── AppointmentForm.tsx
-│ │
-│ ├── pages/
-│ │ ├── Home.tsx
-│ │ ├── Feedback.tsx
-│ │ └── Profile.tsx
-│ │
-│ ├── assets/
-│ ├── App.tsx
-│ ├── index.tsx
-│ └── styles.css
-│
-├── package.json
-├── tsconfig.json
-└── README.md
-
----
-
 ## 👨‍💻 Developer Notes
 
 - Follow accessibility guidelines (WCAG 2.1).
