@@ -7,7 +7,9 @@ const HomePage: React.FC = () => {
     <main className="min-vh-100 d-flex justify-content-center align-items-center bg-light">
         <div className="container text-center p-4 bg-white rounded-4 shadow" style={{ maxWidth: "360px" }}>
             <h2 className="mb-4 fw-bold text-secondary">React Calculator</h2>
-
+          <button onClick={() => {
+            alert("Logged out successfully!")
+          }}>Click me</button>
         {/* Display */}
         <div className="border rounded-3 bg-dark text-white fs-4 text-end p-3 mb-4">
             {display}

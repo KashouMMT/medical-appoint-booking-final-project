@@ -1,9 +1,5 @@
 # 🩺 StayHealthy — Digital Healthcare Platform
 
-### Project Scenario  
-**Estimated Time:** 10 minutes  
-**Role:** Front-End Developer  
-
 ---
 
 ## 🏥 Overview

@@ -6,7 +6,7 @@ const HomeLayout: React.FC = () => {
     return (
         <>
         <Navbar />
-        <HomePage />
+            <HomePage />
         <Footer />
         </>
     )

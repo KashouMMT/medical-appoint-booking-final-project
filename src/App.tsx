@@ -1,13 +1,20 @@
-import HomeLayout from './public/HomeLayout';
-import SignUp from './auth/SignUp';
-import Login from './auth/Login';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-const App = () => {
+import HomeLayout from './public/HomeLayout';
+import SignUp from './Sign_Up/SignUp';
+import Login from './Login/Login';
+
+const App: React.FC = () => {
   return (
     <>
-      {/* <HomeLayout /> */}
-      {/* <SignUp /> */}
-      <Login />
+      <Router>
+          <Routes>
+            <Route path="/" element={<HomeLayout />}></Route>
+            <Route path="/home" element={<HomeLayout />}></Route>
+            <Route path="/login" element={<Login />}></Route>
+            <Route path='/signup' element={<SignUp />}></Route>
+          </Routes>
+      </Router>
     </>
   );
 }
